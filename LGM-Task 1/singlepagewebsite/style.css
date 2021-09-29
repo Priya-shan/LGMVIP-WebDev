@@ -11,6 +11,7 @@ html {
     font-family: 'Roboto', sans-serif !important;
 
 }
+/*----------------------------------------------Carousel------------------------------------------------------*/
 
 .carousel {
     height: 100vh;
@@ -19,6 +20,7 @@ html {
 .carousel img {
     height: 100vh;
 }
+/*----------------------------------------------NavBar------------------------------------------------------*/
 
 nav {
     position: absolute;
@@ -45,11 +47,13 @@ nav,
 .sidenav {
     -webkit-box-shadow: none;
 }
+/*----------------------------------------------Welcome------------------------------------------------------*/
 
 .welcome h3 {
     text-align: center;
     font-weight: bold;
 }
+/*----------------------------------------------3 Divisions------------------------------------------------------*/
 
 .icons {
     text-align: center;
@@ -71,6 +75,7 @@ nav,
 button {
     font-weight: bold;
 }
+/*----------------------------------------------Projects------------------------------------------------------*/
 
 .cardm {
     padding: 0px !important;
@@ -100,6 +105,7 @@ button.waves-effect.waves-light.btn-small.caselaunch {
     background-color: #60497d !important;
     color: white !important;
 }
+/*----------------------------------------------Pricing------------------------------------------------------*/
 
 .pricing .row .x .v {
     border-right: 2px ridge #efefef;
@@ -113,6 +119,7 @@ button.waves-effect.waves-light.btn-small.caselaunch {
     font-size: 15px;
     ;
 }
+/*----------------------------------------------Video Projects------------------------------------------------------*/
 
 .videoGallery {
     background-color: #60497d;
@@ -128,8 +135,6 @@ height: 350px !important;
     border-radius: 5px;
     counter-increment: carousel-cell;
 }
-
-/* cell number */
 
 .carousel-cell:before {
     display: block;
@@ -150,6 +155,8 @@ width: 15% !important;
 margin-left: 0%!important;
 margin: 0 30px !important;
 }
+/*----------------------------------------------Team------------------------------------------------------*/
+
 .contact-img img:nth-child(1){
 width: 175px;
 height: 175px;
@@ -217,33 +224,8 @@ color:#c9c9c9;
 font-size: 15px;
 text-transform: capitalize;
 }
-/*
-.newsletter{
-    position: relative;
-height: 400px;
-background-image: url("images/bridge.jpg");
-background-repeat: no-repeat;
-background-position: cover;
-background-size: cover;
-}
-.newsletter-content{
-    position: absolute;
-}
-.newsletter-content .form-control{
-background-color: white !important;
-border: 0px;
-outline: none;
-}
-.signup{
+/*----------------------------------------------Newsletter------------------------------------------------------*/
 
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    width: 50%;
-}
-.newsletter-content .btn{
-    background-color:#60497d;
-}*/
 .newsletter{
     height: 350px;
     background: url('Images/bridge.jpg');
@@ -256,6 +238,8 @@ outline: none;
     margin-left: 400px !important;
     padding: 5px !important;
 }
+/*----------------------------------------------Blog------------------------------------------------------*/
+
 .blogsingle{
     text-align: center;
     padding: 0 50px;
@@ -268,9 +252,6 @@ font-weight: bold;
 font-size: 13px;
 color: thistle;
 }
-.blogsingle p{
-
-}
 .blog_{
 margin-bottom: 70px;
 }
@@ -280,6 +261,7 @@ height: 130px;
 
 }
 
+/*----------------------------------------------Map------------------------------------------------------*/
 
 #map {
     height: 100%;
@@ -326,6 +308,8 @@ height: 130px;
       width: 100%;
       margin-top: 10px;
   }
+  /*----------------------------------------------contact------------------------------------------------------*/
+
 #contact{
     margin:50px 0;
 }
